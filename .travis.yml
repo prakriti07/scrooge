@@ -1,14 +1,15 @@
 dist: trusty
 sudo: required
 
+os: linux
+
+arch: arm64
 language: scala
 
 git:
   depth: 3
   quiet: true
 
-arch:
-  - arm64
 env:
   - JAVA_OPTS="-Dsbt.log.noformat=true"
 
